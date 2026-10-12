@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+/go-auth
+*.exe
+*.test
+
+# Coverage
+*.out
+coverage.html
+
+# Local Go workspace
+go.work
+go.work.sum
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
